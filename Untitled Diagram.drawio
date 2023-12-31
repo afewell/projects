@@ -1,9 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2023-12-31T21:07:17.261Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.16" etag="rikDKUOd_WYha5AK5FDh" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-31T21:39:11.137Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="rYRk1TnXRaHwkOL04PJt" version="22.1.16" type="github">
   <diagram name="Page-1" id="6X8GbKlYMkpgbHuovt_a">
-    <mxGraphModel>
+    <mxGraphModel dx="3252" dy="1224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8R0Jj1haWO_HCzXeFkQu-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="440" width="240" height="130" as="geometry">
+            <mxRectangle x="320" y="520" width="160" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8R0Jj1haWO_HCzXeFkQu-2" value="Client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8R0Jj1haWO_HCzXeFkQu-1">
+          <mxGeometry x="65" y="10" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8R0Jj1haWO_HCzXeFkQu-3" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="440" width="240" height="130" as="geometry">
+            <mxRectangle x="320" y="520" width="160" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8R0Jj1haWO_HCzXeFkQu-4" value="Technical Account Manager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8R0Jj1haWO_HCzXeFkQu-3">
+          <mxGeometry x="5" y="10" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8R0Jj1haWO_HCzXeFkQu-12" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;New RFP Request:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Client Submits RFP Request to TAM&lt;/li&gt;&lt;ul&gt;&lt;li&gt;One TAM per Client&lt;/li&gt;&lt;li&gt;N projects per client/TAM&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;&quot;&gt;TAM Creates Project workspace&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;file share (github repo?)&lt;/li&gt;&lt;li style=&quot;&quot;&gt;kanban tool (github projects)&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;&quot;&gt;TAM Saves RFP Request to Project Folder&lt;/li&gt;&lt;li style=&quot;&quot;&gt;TAM notifies project manager team with&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="130" width="360" height="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
