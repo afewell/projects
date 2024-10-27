@@ -7,9 +7,9 @@ These Dev VM's are meant as a series of building blocks to efficiently support a
 
 The same memory layering capability in linked clones works even better in containers than in VM's, and so its better to use containers for creating separate environments. However, depending on the needs of the project, there are times when different VM's are needed. When a new environment is needed, use an existing dev VM with a new container when possible, and only create additional VM's if needed.
 
-Currently, I don't have many Dev VM's and will document the manifests for each within this readme until I have a large enough quantity to create additional files or assets to document them. This directory will be used for this purpose.
+This page lists the root VM's. Dev VMs should be configured via an idempotent script, which allows users to iterate around a common setup file that captures the configuration delta from the root VM. These scripts will be located in ./scripts. 
 
-## Current Dev VMs
+## Root Dev VMs
 
 - Name: Ubuntu 24.04 Server - Fresh Install
 - Name: Ubuntu 24.04 Desktop - Fresh Install
@@ -19,7 +19,6 @@ Currently, I don't have many Dev VM's and will document the manifests for each w
 ### Ubuntu 24.04 Server - Fresh Install
 - Description:
   - Fresh Install of Ubuntu 24.04 server with `apt update`command executed after install and no further configuration.
-- Root_VM: True
 - Configuration:
   - Username: afewell
   - Password: redacted
@@ -29,7 +28,6 @@ Currently, I don't have many Dev VM's and will document the manifests for each w
 ### Ubuntu 24.04 Desktop - Fresh Install
 - Description:
   - Fresh Install of Ubuntu 24.04 server with `apt update`command executed after install and no further configuration.
-- Root_VM: True
 - Configuration:
   - Username: afewell
   - Password: redacted
